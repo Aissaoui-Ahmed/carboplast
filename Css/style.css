@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    line-height: 3;
+}
+h1{
+    font-family: 'Righteous';
+}
+nav{
+    background-color: white;
+    margin-bottom: 30px;
+}
+nav .brand-logo img{    
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+}
+.cardtwo > .cardone >.cardtri{
+    height: 450px;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+#nav-mobile li a{
+    color: #51d0fe;
+    font-size: 19px;
+    font-family: cairo;
+}
+#btn{
+    background-color: #51d0fe;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#first-img{
+    height: 450px;
+    background:url("first.png");
+    background-size: 100% 100%;
+}
+#second-img{
+    height: 450px;
+    background:url("second.png");
+    background-size: 100% 100%;
+}
+#Third-img{
+    height: 450px;
+    background:url("plastic.jpg");
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+@media only screen and (max-width: 600px) {
+    .cardtwo {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    #text{
+        grid-area: 2/1;
+    }
+  }
